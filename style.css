@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ul {
@@ -35,7 +36,7 @@ a {
 .header {
     color: white;
     padding: 5px 300px;
-    margin-bottom: 30px;
+    padding-bottom: 60px;
 }
 
 .header-nav,
@@ -48,6 +49,7 @@ a {
 .header-nav {
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .header-links a{
@@ -66,7 +68,26 @@ a {
 }
 
 .header-text {
-    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-right: 130px;
+}
+
+.header-text h2 {
+    font-size: 47px;
+
+}
+
+.header-description {
+    font-size: 18px;
+}
+
+.header-btn {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .header-image img {
@@ -135,6 +156,7 @@ a {
     gap: 100px;
 }
 
+.header-btn,
 .newsletter-container,
 .newsletter-btn {
     background-color: #3882f6;
