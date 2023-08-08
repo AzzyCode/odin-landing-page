@@ -4,9 +4,9 @@ A simple landing page for a fictional travel agency, showcasing their services a
 It was a fun project. I learned flexbox and the basics of web design. 
 
 ## Technology used:
--HTML
+-HTML <br/>
 -CSS (Flexbox)
 
-Picture sources:
--https://unsplash.com/
+## Picture sources:
+-https://unsplash.com/ <br/>
 -https://www.pexels.com/
