@@ -35,7 +35,7 @@ a {
 
 .header {
     color: white;
-    padding: 5px 300px;
+    padding: 5px 100px;
     padding-bottom: 60px;
 }
 
@@ -72,16 +72,17 @@ a {
     gap: 20px;
     justify-content: flex-start;
     align-items: flex-start;
-    padding-right: 130px;
+    padding-right: 80px;
 }
 
 .header-text h2 {
-    font-size: 47px;
+    font-size: 42px;
 
 }
 
 .header-description {
     font-size: 18px;
+    line-height: 1.2;
 }
 
 .header-content .header-btn {
@@ -134,7 +135,7 @@ a {
 
 .client-opinion-container {
     background-color: #6BB9F0;
-    padding: 40px 300px;
+    padding: 40px 100px;
     padding-bottom: 20px;
     height: 240px;
     width: auto;
@@ -187,7 +188,7 @@ a {
 }
 
 .newsletter-container * {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .footer {
